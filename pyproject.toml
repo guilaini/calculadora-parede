@@ -1,0 +1,12 @@
+[project]
+name = "calculadora-parede"
+version = "0.1.0"
+description = "Dimensionamento de paredes estruturais de concreto armado pela NBR 6118:2026 e pelo ACI 318-25"
+requires-python = ">=3.10"
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
